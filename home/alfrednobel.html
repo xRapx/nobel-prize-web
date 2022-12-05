@@ -1,0 +1,511 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOBEL</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular-route.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://code.jquery.com/jquery-3.6.0.min.js" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" href="../demo.css">
+    <link rel="stylesheet" href="../footer.css">
+    <link rel="stylesheet" href="../css/head.css">
+    <link rel="stylesheet" href="../css/alfred.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <span><img src="../image/LOGO.jpg" alt="logo" height="240px"  id="logo"></span>
+            <span id="title">THE NOBEL PRIZE</span>
+        </header>
+    </div>
+    <nav id="top">
+        <!-- Navbar links -->
+            <a href="../index.html" >HOME</a>
+            <a href="../home/prize.html" >PRIZE</a>
+            <a href="#" class="active">ALFRED NOBEL</a>
+            <a href="../home/event.html">EVENT</a>
+            <a href="../home/news.html">NEWS</a>
+    </nav><br>
+    <div >
+            <img class="himg" src="../image/nobel.jpg" >
+            <img class="himg"  src="../image/nobel1.jpg" width="280px" >
+            <img class="himg"  src="../image/nobel3.jpg" width="194px">
+            <img class="himg"  src="../image/nobel2.jpg" width="214px">
+            <img class="himg"  src="../image/nobel4.jpg" width="240px" >
+    </div>          
+    <div>
+        <div id="main"><h1>THE MAN BEHIND THE PRIZE - ALFRED NOBEL</h1></div>
+        <!--Alfred Nobel's life-->
+        <hr>
+            <div id="p1">
+                <h2 id="hlife">Alfred Nobel's Life</h2>     
+                <div id="img1"><img src="../image/stockhom.jpg" width="500px" height="310px"></div>         
+                <p id="life">Alfred Nobel (1833-1896) was born in Stockholm, Sweden, on 21 October 1833. His family was descended from Olof Rudbeck, the best-known technical genius in Sweden in the 17th century, an era in which Sweden was a great power in northern Europe. 
+                    Nobel was fluent in several languages, and wrote poetry and drama. Nobel was also very interested in social and peace-related issues, and held views that were considered radical during his time.
+                    Alfred Nobel’s interests are reflected in the prize he established. Learn more about his life and his interests – science, inventions, entrepreneurship, literature and peace work.                
+                </p> 
+            </div>
+        <br><hr>
+        <!--Fact + Aphorisms-->
+            <div class="container-fluid both">
+                <div class="row">
+                    <div class="col-6 quick">
+                        <h4 class="hboth">Quick Fact</h4>
+                        <br>
+                        <ul id="fact">
+                            <li>Born: 21 October 1833</li>
+                            <li>Died: 10 December 1896</li>
+                            <li>Known for: inventing dynamite and holder of 355 patents</li>
+                            <li>Professions: chemist, inventor, engineer, entrepreneur, businessman, author</li>
+                            <li>Will: left 31 million SEK (about 265 million dollar today) to fund the prizes</li>
+                        </ul>
+                    </div>
+                    <div class="col-6 aphor">
+                        <h4 class="hboth">Aphorisms by Alfred Nobel</h4>
+                        <br>
+                        <p id="aph">Literature occupied a central role in the life of Alfred Nobel. He regarded various literary forms of expression as opportunities to achieve a greater understanding of our own thoughts, lives and relationships with other people and our surroundings.
+                            Alfred Nobel had an extensive library, which included important European literary works. Inspired by Shelley and Byron, he wrote poems in English as a young man. 
+                            Toward the end of his life, he wrote the tragedy Nemesis. His best literary form of expression was probably the aphorism, where he often expressed himself drastically.
+                        </p>
+                    </div>
+                </div>
+            </div>   
+        <hr>
+        <!--Timeline-->
+            <div class="container my-5">
+                <div class="row">
+                <div id="tline">
+                    <h4 id="htime">Key Event in Alfred Nobel's life</h4>
+                    <ul class="timeline-3">
+                        <li>
+                            <span class="y">1833</span>
+                            <p class="mt-2">
+                                Alfred Nobel is born in Stockholm, Sweden. 
+                                In the same year, his father, Immanuel Nobel, goes bankrupt.
+                            </p>
+                        </li>  
+                        <li>
+                            <span class="y">1838</span>
+                            <p class="mt-2">
+                                Immanuel Nobel arrives in St Petersburg, Russia, where he starts a mechanical workshop; he leaves his family behind in Sweden.<br>
+                                He lands a contract with a Russian general, who is interested in the Swedish inventor’s designs for sea and land mines.<br>
+                                His business flourishes and evolves to a large mechanical engineering company.
+                            </p>
+                        </li>              
+                        <li>
+                            <span class="y">1840</span>
+                            <p class="mt-2">
+                                The Nobel family is reunited in St Petersburg, Russia.
+                            </p>
+                        </li>  
+                        <li>
+                            <span class="y">1850-1852</span>
+                            <p class="mt-2">
+                                At the age of 17,  Alfred Nobel speaks five languages fluently. He travels to Paris and works for one year in the laboratory of T.<br> 
+                                Jules Pelouze. He also travels to Italy, Germany and the United States (US).
+                            </p>
+                        </li>  
+                        <li>
+                            <span class="y">1853 – 1856</span>
+                            <p class="mt-2">
+                                Immanuel Nobel’s company goes bankrupt as the Crimean War ends and the Russian military cancel orders. <br>
+                                Alfred Nobel searches desperately for new products. Nikolai N. Zinin, Nobel’s chemistry teacher, reminds him of nitroglycerin.
+                        </li>  
+                        <li>
+                            <span class="y">1862</span>
+                            <p class="mt-2">
+                                Alfred Nobel starts his experiments with nitroglycerin.
+                            </p>
+                        </li>  
+                        <li>
+                            <span class="y">1863</span>
+                            <p class="mt-2">
+                                Alfred Nobel moves back to Stockholm and obtains the first patent on nitroglycerin (blasting oil) as an industrial explosive.
+                            </p>
+                        </li>  
+                    </ul>
+                    <div id="myDIV">
+                    <ul class="timeline-3">
+                        <li>
+                            <span class="y">1864</span>
+                            <p class="mt-2">
+                                Alfred Nobel patents a detonator (blasting cap) for triggering the explosion of nitroglycerin and forms the company Nitroglycerin AB. <br>
+                                Emil, Alfred Nobel’s brother, is killed during the preparation of nitroglycerin at Heleneborg, Stockholm.
+                            </p>
+                        </li>  
+                        <li>
+                            <span class="y">1865</span>
+                            <p class="mt-2">
+                                Alfred Nobel improves the blasting cap design and moves to Germany to set up the Alfred Nobel & Co Factory in Krümmel near Hamburg.
+                        </li>  
+                        <li>
+                            <span class="y">1866</span>
+                            <p class="mt-2">
+                                A violent explosion destroys the Krümmel plant in Germany. Experimenting on a raft anchored on the river Elbe, Alfred Nobel tries to make nitroglycerin safer to handle. <br>
+                                He finds that nitroglycerin is stabilized by the addition of kieselguhr (a siliceous deposit; also known as diatomaceous earth), and calls this mixture dynamite. (From greek dynamis meaning ”power”).
+                            </p>
+                        </li> 
+                        <li>
+                            <span class="y">1867</span>
+                            <p class="mt-2">
+                                Alfred Nobel obtains a patent for dynamite in Sweden.
+                            </p>
+                        </li> 
+                        <li>
+                            <span class="y">1871</span>
+                            <p class="mt-2">
+                                Alfred Nobel establishes the British Dynamite Company (Ardeer, Scotland, UK). In 1877 the company name is changed to Nobel’s Explosives Company.
+                            </p>
+                        </li> 
+                        <li>
+                            <span class="y">1872</span>
+                            <p class="mt-2">
+                                Immanuel, Alfred Nobel’s father, passes away.
+                            </p>
+                        </li> 
+                        <li>
+                            <span class="y">1873</span>
+                            <p class="mt-2">
+                                At the age of 40 Alfred Nobel is a wealthy man. He moves to Paris and settles at Avenue Malakoff.<br>
+                                The manufacture of nitroglycerin and dynamite starts at Ardeer, Scotland, UK.
+                            </p>
+                        </li> 
+                        <li>
+                            <span class="y">1875</span>
+                            <p class="mt-2">
+                                Alfred Nobel invents blasting gelatine in Paris and establishes Société Générale pour la Fabrication de la Dynamite in Paris.
+                            </p>
+                        </li> 
+                        <li>
+                            <span class="y">1876</span>
+                            <p class="mt-2">
+                                Alfred Nobel obtains a patent on blasting gelatine.<br>
+                                Dynamitaktiengesellschaft (DAG), formerly Alfred Nobel & Co (Hamburg, Germany), is formed.<br>
+                                Alfred Nobel advertises for a housekeeper/personal secretary, meets with Bertha Kinsky von Chinic und Tettau (later von Suttner) and hires her.<br>
+                                She leaves his employment after a short time and becomes a leading peace activist.
+                            </p>
+                        </li>
+                        <li>
+                            <span class="y">1880</span>
+                            <p class="mt-2">
+                                Dynamite Nobel is formed by merging Nobel’s Italian and Swiss companies.
+                            </p>
+                        </li>
+                        <li>
+                            <span class="y">1881</span>
+                            <p class="mt-2">
+                                Alfred Nobel buys an estate and laboratory at Sevran outside Paris
+                            </p>
+                        </li>
+                        <li>
+                            <span class="y">1885</span>
+                            <p class="mt-2">
+                                German Union is formed by merging Dynamitaktiengesellschaft (DAG) and a group of German dynamite companies.
+                            </p>
+                        </li> 
+                        <li>
+                            <span class="y">1886</span>
+                            <p class="mt-2">
+                                Nobel-Dynamite Trust Co (London, UK) is formed by merging Dynamitaktiengesellschaft (DAG) and the Nobel’s Explosives Company.
+                            </p>
+                        </li>
+                        <li>
+                            <span class="y">1887</span>
+                            <p class="mt-2">
+                                Nobel obtains a patent for the blasting powder “ballistite” in France.
+                            </p>
+                        </li>
+                        <li>
+                            <span class="y">1889</span>
+                            <p class="mt-2">
+                                Andriette, Alfred Nobel’s mother, passes away.
+                            </p>
+                        </li> 
+                        <li>
+                            <span class="y">1891</span>
+                            <p class="mt-2">
+                                Alfred Nobel leaves Paris and settles in San Remo, Italy, after a dispute with the French government over ballistite.
+                            </p>
+                        </li> 
+                        <li>
+                            <span class="y">1893</span>
+                            <p class="mt-2">
+                                Alfred Nobel hires the young engineer Ragnar Sohlman, who he later names executor of his will and testament.
+                            </p>
+                        </li> 
+                        <li>
+                            <span class="y">1894</span>
+                            <p class="mt-2">
+                                Alfred Nobel buys a small machine works (Bofors-Gullspång) and a manor (Björkborn) at Karlskoga, Sweden.</span>
+                            </p>
+                        </li>                             
+                        <li>
+                            <span class="y">1895</span>
+                            <p class="mt-2">
+                                The third and final will of Alfred Nobel is signed at the Swedish-Norwegian Club in Paris.
+                            </p>
+                        </li> 
+                        <li>
+                            <span class="y">1896</span>
+                            <p class="mt-2">
+                                Alfred Nobel dies, at the age of 63, in his home in San Remo, Italy, on 10 December 1896.                       
+                            </p>
+                        </li> 
+                        <li>
+                            <span class="y">1901</span>
+                            <p class="mt-2">
+                                The first Nobel Prizes are awarded on 10 December.
+                            </p>
+                        </li>  
+                    </ul>
+                    </div>
+                    <button id="time" onclick="myFunction()" >Show more</button>
+                    </div>
+                </div>
+            </div>
+        <hr>
+        <!--Work-->
+            <div>
+                <h2 id="hwork">Alfred Nobel's Work</h2>
+                <div class="row">
+                    <div class="col-4 work" style="border: solid;">
+                        <h4>Inventing Dynamite</h4>
+                        <p>Based on Alfred’s work and patents a whole new industry developed. Within ten years, 16 explosives producing factories had been founded in 14 countries with Nobel as shareholder or co-owner.</p>
+                        <img src="../image/dy.jpg" class="Wimg">
+                    </div>
+                    <div class="col-4 work" style="border: solid;">
+                        <h4>Interest In Literature</h4>
+                        <p>Alfred Nobel also had a big interest in literature and writing. He left behind a private library at Björkborn with over 1,500 volumes, among those works by many great writers of the 19th century.</p>
+                        <img src="../image/lit.jpg" class="Wimg">
+                    </div>
+                    <div class="col-4 work" style="border: solid;">
+                        <h4>A Long List Of Inventions</h4>
+                        <p>Alfred invented dynamite and experimented in making synthetic rubber, leather and artificial silk among many other things. During his lifetime he acquired 355 patents worldwide.</p>
+                        <img src="../image/invent.jpg" class="Wimg">
+                    </div>
+                </div>
+            </div>
+        <hr>
+        <!--Video-->
+            <div>
+                <h4 id="hvid">Videos</h4>
+                <div id="vid">
+                    <video controls  class="video"
+                        src="../video/nobel1.mp4">
+                    </video>
+                    <video controls  class="video"
+                        src="../video/nobel3.mp4">
+                    </video>
+                    <video controls  class="video"
+                        src="../video/nobel2.mp4">
+                    </video>
+                    <video controls  class="video"
+                        src="../video/nobel4.mp4">
+                    </video>
+                    </div>
+            </div>
+        <hr>
+        <!--Register-->
+        <div id="reg">
+                <table>
+                    <tr>
+                        <td id="Message">
+                            <strong>"Monthly" news subscribe</strong>
+                            <p id="Sb">Join thousands of global subscribers enjoying the free monthly Nobel Prize highlights, trivia and up-to-date information.</p>
+                        </td>
+                        <td id="sub">
+                            
+                            <div class="form-group">
+                                <form id="regist">
+                                    <label id="emailHelp" for="exampleInputEmail1" >Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                                    <small id="emailHelp">We'll never share your email with anyone else.</small><br>
+                                    <span id="exampleCheck1">
+                                            <input type="checkbox" class="form-check-input" required>
+                                            I consent to my email address being used in accordance with the 
+                                            <a href="" id="myBtn" data-bs-toggle="modal" data-bs-target="#myModal">privacy policy</a>
+                                        </span>
+                                    <button type="submit" class="btn-primary" onclick="Success()">Subscribe</button>
+                                </form>
+                            </div>        
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h4 class="modal-title">Privacy Policy</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <p>
+                                                We never store or process personal information unless we have explicit consent, we have conducted a Legitimate Interests Assessment, we are required to process your personal information according to law or when it is necessary to fulfill an agreement with you.
+                                            </p>
+                                            <p>
+                                                Our legitimate interest for processing your personal information on the basis of a Legitimate Interests Assessment is to inform you about our activities; administer events, arrangements, websites and networks; and document and communicate our events and arrangements.
+                                            </p>
+                                            <P>
+                                                Personal information is never stored longer than deemed necessary to fulfil the purpose for which it was collected. Personal information that we process on the basis of a Legitimate Interests Assessment is normally processed for the period that is necessary for fulfilling the purposes of the processing. Personal information that we process for the purpose of fulfilling an agreement with you is normally processed for the duration of our agreement and for fifteen months after expiry of the agreement. To comply with legal obligations or because you have given your consent, we may keep your personal information for a longer period.
+                                            </P>
+                                            <p>
+                                                You have the right to:
+                                            </p>
+                                            <p>
+                                                Request access to your personal information. This enables you to receive a copy of the personal information we hold about you and to check that we are lawfully processing it.
+                                            </p>
+                                            <p>
+                                                Request correction of the personal information that we hold about you. This enables you to have any incomplete or inaccurate information we hold about you corrected, though we may need to verify the accuracy of the new information you provide to us.
+                                            </p>
+                                            <p>
+                                                Request erasure of your personal information. This enables you to ask us to delete or remove personal information where there is no good reason for us to continue to process it. You also have the right to ask us to delete or remove your personal information where you have successfully exercised your right to object to processing, where we may have processed your information unlawfully or where we are required to erase your personal information to comply with local law. Note, however, that we may not always be able to comply with your request of erasure for specific legal reasons, which will be communicated to you, if applicable, at the time of your request.
+                                            </p>
+                                            <p>  
+                                                Withdraw consent at any time where we are relying on consent to process your personal information. However, this will not affect the lawfulness of any processing carried out before you withdraw your consent.
+                                            </p>
+                                            <p>
+                                                Request restriction of processing of your personal information. This enables you to ask us to suspend the processing of your personal information in the following scenarios: (a) if you want us to establish the information’s accuracy; (b) where our use of the information is unlawful but you do not want us to erase it; (c) where you need us to retain the information even if we no longer require it because you need it to establish, exercise or defend legal claims; or (d) you have objected to our use of your data but we need to verify whether we have overriding legitimate grounds to use it.
+                                            </p>
+                                            <p>   
+                                                Object to processing of your personal information where we are relying on a legitimate interest (or that of a third party) and there is something about your particular situation which makes you want to object to processing on grounds that you feel it impacts your fundamental rights and freedoms. You also have the right to object when we process your personal information for direct marketing purposes. In some cases, we may demonstrate that we have compelling legitimate grounds to process your information which override your rights and freedoms.
+                                            </p>
+                                            <p>   
+                                                Request the transfer of your personal information to you or to a third party. We will provide you, or a third party you have chosen, with your personal information in a structured, commonly used, machine-readable format. Note that this right only applies to automated information which you initially provided consent for us to use, or where we used the information to fulfil a contract with you.
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>   
+        </div>
+        <hr>
+    </div> 
+    <a href="#top" id="back-to-top" style="display:inline;">
+        <i class="fa fa-angle-up"></i>
+    </a>
+    <footer>
+        <div class="main-content">
+            <div class="left box">
+                <h2>About Us</h2>
+                <hr>
+                <div class="content">
+                    <p>
+                        Due to the lack information about The Nobel prize, we have decided to create this website to help
+                    all people who need any information knows where to find.<br>
+                        We're trying our best to keep the data up to date and if there is any problem or you have any idea to 
+                    help us improve our website. Please send us feedback!<br>
+                    Thank you for your support and hope you enjoy our website! <i class="fa-solid fa-heart"></i> <i class="fa-solid fa-heart"></i>
+                    </p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/nobelprize"><span class="fab fa-facebook-f"></span></a>
+                        <a href="https://twitter.com/NobelPrize?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><span class="fab fa-twitter"></span></a>
+                        <a href="https://www.instagram.com/nobelprize_org/"><span class="fab fa-instagram"></span></a>
+                        <a href="https://www.youtube.com/c/NobelPrize/videos"><span class="fab fa-youtube"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="center box">
+                <h2>CONTACT US</h2>
+                <hr>
+                <div class="content">
+                    <div class="place">
+                        <i class="fas fa-map-marker"></i>
+                        <span class="text">590 Cach Mang Thang 8, Ward 11, District 3, Ho Chi Minh City, Viet Nam</span>
+                    </div><br>
+                    <div class="phone">
+                        <span class="fas fa-phone"></span>
+                        <span class="text">(+84) 220303507</span>
+                    </div><br>
+                    <div class="email">
+                        <span class="fas fa-envelope"></span>
+                        <span class="text">nobelprize.org@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="center-2 box">
+                <h2>GET HElP</h2>
+                <hr>
+                <div class="content">
+                    <div class="faqs"><a href="FAQs.html">FAQs</a></div>
+                    <br>
+                    <div><p>Tutorials</p></div>
+                </div>
+            </div>
+            <div class="right box">
+                <h2>FEEDBACK</h2>
+                <hr>
+                <div class="content">
+                    <form onsubmit="return feedBack()" id="form">
+                        <div class="email">
+                            <div class="text">Email*</div>
+                            <input type="email" required>
+                        </div>
+                        <div class="msg">
+                            <div class="text">Message*</div>
+                            <textarea name="text" id="text" cols="25" rows="4" required></textarea>
+                        </div>
+                            <input type="submit" value="Send" id="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+         var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+		function myFunction() {
+			var x = document.getElementById("time");
+			if (x.innerHTML === "Show more") {
+				x.innerHTML = "Show less";
+			} else {
+				x.innerHTML = "Show more";
+			}
+            var x = document.getElementById("myDIV");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+		}
+        function Success(){
+                alert("Subscribe success!! We'll start sending news to you next month.\nHope you enjoy!! ")
+            }
+    </script>
+</body>
+
+</html>

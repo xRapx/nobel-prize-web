@@ -1,0 +1,32 @@
+body{
+    padding: 0.75%;
+}
+
+header{
+    background-color: #D7A942;
+}
+#logo{
+    margin-left: 250px ;
+}
+#title{
+    font-weight: bold;
+    margin-left: 100px;
+    font-size: 50px;
+}
+#menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: #D7A942;
+    padding: 10px;         
+}
+#menu a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    margin-top: 15px;
+    margin-left: 130px;
+}
+#menu a:hover{
+    background-color: rgba(154, 100, 0, 0.805);
+}

@@ -1,0 +1,22 @@
+body{
+    background-color:  rgba(242, 233, 233, 0.986);
+    width: 1520px;
+  }
+.mySlides{
+    float: left;
+}
+#vid{
+    align-items: center;
+}
+#more{
+    display: none;
+}
+.video{
+    margin-left: 20px;
+}
+.but{
+    margin-left: 980px;
+    margin-bottom: 10px;
+    margin-top: -35px;
+    display: flex;
+}

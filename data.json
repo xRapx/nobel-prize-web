@@ -1,0 +1,422 @@
+[
+    {
+     "image": "../home/Prize/Prize Component/image/chemistry/2021/Benjamin List.webp",
+     "name": "Benjamin List.webp",
+     "year": 2021,
+     "prize": "1/2",
+     "data": "Born: 11 January 1968, Frankfurt-on-the-Main, Germany Affiliation at the time of the award: Max-Planck-Institut für Kohlenforschung, Mülheim an der Ruhr, Germany",
+     "motivation": "For the development of asymmetric organocatalysis",
+     "nganh": "Chemistry",
+     "id": "1"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/chemistry/2021/David W.C. MacMillan.webp",
+     "name": "David W.C. MacMillan",
+     "year": 2021,
+     "prize": "1/2",
+     "data": "Born: 16 March 1968, Bellshill, United Kingdom\nAffiliation at the time of the award: Princeton University, Princeton, NJ, USA",
+     "motivation": "For the development of asymmetric organocatalysis",
+     "nganh": "Chemistry",
+     "id": "2"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/chemistry/2020/Jennifer A. Doudna.webp",
+     "name": "Jennifer A. Doudna",
+     "year": 2020,
+     "prize": "1/2",
+     "data": "Born: 19 February 1964, Washington, DC, USA\nAffiliation at the time of the award: University of California, Berkeley, CA, USA",
+     "motivation": "For the development of a method for genome editing",
+     "nganh": "Chemistry",
+     "id": "3"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/chemistry/2020/Emmanuelle Charpentier.jpg",
+     "name": "Emmanuelle Charpentier",
+     "year": 2020,
+     "prize": "1/2",
+     "data": "Born: 11 December 1968, Juvisy-sur-Orge, France\nAffiliation at the time of the award: Max Planck Unit for the Science of Pathogens, Berlin, Germany",
+     "motivation": "For the development of a method for genome editing",
+     "nganh": "Chemistry",
+     "id": "4"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/chemistry/2019/Akira Yoshino.webp",
+     "name": "Akira Yoshino",
+     "year": 2019,
+     "prize": "1/3",
+     "data": "Born: 30 January 1948, Suita, Japan\n Affiliation at the time of the award: Asahi Kasei Corporation, Tokyo, Japan, Meijo University, Nagoya, Japan",
+     "motivation": "For the development of lithium-ion batteries",
+     "nganh": "Chemistry",
+     "id": "5"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/chemistry/2019/John B. Goodenough.webp",
+     "name": "John B. Goodenough",
+     "year": 2019,
+     "prize": "1/3",
+     "data": "Born: 30 January 1948, Suita, Japan\nAffiliation at the time of the award: Asahi Kasei Corporation, Tokyo, Japan, Meijo University, Nagoya, Japan",
+     "motivation": "For the development of lithium-ion batteries",
+     "nganh": "Chemistry",
+     "id": "6"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/chemistry/2019/M. Stanley Whittingham.webp",
+     "name": "M. Stanley Whittingham",
+     "year": 2019,
+     "prize": "1/3",
+     "data": "Born: 25 July 1922, Jena, Germany\nAffiliation at the time of the award: University of Texas, Austin, TX, USA",
+     "motivation": "For the development of lithium-ion batteries",
+     "nganh": "Chemistry",
+     "id": "7"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/chemistry/2018/Fances H.Arnold.jpg",
+     "name": "Frances H. Arnold",
+     "year": 2018,
+     "prize": "1/3",
+     "data": "Born: 25 July 1956, Pittsburgh, PA, USA \n Affiliation at the time of the award: California Institute of Technology (Caltech), Pasadena, CA, ",
+     "motivation": "For the development of lithium-ion batteries",
+     "nganh": "Chemistry",
+     "id": "8"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/chemistry/2018/George P. Smith.jpg",
+     "name": "George P. Smith",
+     "year": 2018,
+     "prize": "1/2",
+     "data": "Born: 10 March 1941, Norwalk, CT, USA \n Affiliation at the time of the award: University of Missouri, Columbia, USA",
+     "motivation": "For the phage display of peptides and antibodies",
+     "nganh": "Chemistry",
+     "id": "9"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/chemistry/2018/Sir Gregory P. Winter.jpg",
+     "name": "Sir Gregory P. Winter",
+     "year": 2018,
+     "prize": "1/4",
+     "data": "Born: 14 April 1951, Leicester, United Kingdom \nAffiliation at the time of the award: MRC Laboratory of Molecular Biology, Cambridge, United Kingdom",
+     "motivation": "For the phage display of peptides and antibodies",
+     "nganh": "Chemistry",
+     "id": "10"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/literature/2021/Abdulrazak Gurnah.webp",
+     "name": "Abdulrazak Gurnah",
+     "year": 2021,
+     "prize": "1/1",
+     "data": "Born: 30 November 1947",
+     "motivation": "For his uncompromising and compassionate penetration of the effects of colonialism and the fate of the refugee in the gulf between cultures and continents",
+     "nganh": "Literature",
+     "id": "11"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/literature/2020/Louise Glück.jpg",
+     "name": "Louise Glück",
+     "year": 2020,
+     "prize": "1/1",
+     "data": "Born: 22 April 1943, New York, NY, USA\nResidence at the time of the award: Cambridge, MA, USA",
+     "motivation": "For her unmistakable poetic voice that with austere beauty makes individual existence universal",
+     "nganh": "Literature",
+     "id": "12"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/literature/2019/Peter Handke.jpg",
+     "name": "Peter Handke",
+     "year": 2019,
+     "prize": "1/1",
+     "data": "Born: 6 December 1942, Griffen, Austria\nResidence at the time of the award: Chaville, France",
+     "motivation": "For an influential work that with linguistic ingenuity has explored the periphery and the specificity of human experience",
+     "nganh": "Literature",
+     "id": "13"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/literature/2018/Olga Tokarczuk.webp",
+     "name": "Olga Tokarczuk",
+     "year": 2018,
+     "prize": "1/1",
+     "data": "Born: 29 January 1962, Sulechów, Poland\nResidence at the time of the award: Wroclaw, Poland",
+     "motivation": "For a narrative imagination that with encyclopedic passion represents the crossing of boundaries as a form of life",
+     "nganh": "Literature",
+     "id": "14"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/medicine/2021/Ardem Patapoutian.webp",
+     "name": "Ardem Patapoutian",
+     "year": 2021,
+     "prize": "1/2",
+     "data": "Born: 30 November 1966, Beirut, Lebanon\nAffiliation at the time of the award: Scripps Research, La Jolla, CA, USA, Howard Hughes Medical Institute",
+     "motivation": "For their discoveries of receptors for temperature and touch",
+     "nganh": "Medicine",
+     "id": "15"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/medicine/2021/David julius.webp",
+     "name": "David julius",
+     "year": 2021,
+     "prize": "1/2",
+     "data": "Born: 4 November 1955, New York, NY, USA\nAffiliation at the time of the award: University of California, San Francisco, CA, USA",
+     "motivation": "For their discoveries of receptors for temperature and touch",
+     "nganh": "Medicine",
+     "id": "16"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/medicine/2020/Charles M. Rice.webp",
+     "name": "Charles M. Rice",
+     "year": 2020,
+     "prize": "1/3",
+     "data": "Born: 25 August 1952, Sacramento, CA, USA\nAffiliation at the time of the award: Rockefeller University, New York, NY, USA",
+     "motivation": "For the discovery of Hepatitis C virus",
+     "nganh": "Medicine",
+     "id": "17"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/medicine/2020/Harvey J. Alter.webp",
+     "name": "Harvey J. Alter",
+     "year": 2020,
+     "prize": "1/3",
+     "data": "Born: 12 September 1935, New York, NY, USA\nAffiliation at the time of the award: National Institutes of Health, Bethesda, MD, USA",
+     "motivation": "For the discovery of Hepatitis C virus",
+     "nganh": "Medicine",
+     "id": "18"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/medicine/2020/Michael Houghton.webp",
+     "name": "Michael Houghton",
+     "year": 2020,
+     "prize": "1/3",
+     "data": "Born: 30 November 1948, United Kingdom\nAffiliation at the time of the award: University of Alberta, Edmonton, Canada",
+     "motivation": "For the discovery of Hepatitis C virus",
+     "nganh": "Medicine",
+     "id": "19"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/medicine/2019/Gregg L. Semenza.jpg",
+     "name": "Gregg L. Semenza",
+     "year": 2019,
+     "prize": "1/3",
+     "data": "Born: 12 July 1956, New York, NY, USA\nAffiliation at the time of the award: Johns Hopkins University, Baltimore, MD, USA",
+     "motivation": "For their discoveries of how cells sense and adapt to oxygen availability",
+     "nganh": "Medicine",
+     "id": "20"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/medicine/2019/Sir Peter J. Ratcliffe.webp",
+     "name": "Sir Peter J. Ratcliffe",
+     "year": 2019,
+     "prize": "1/3",
+     "data": "Born: 14 May 1954, Lancashire, United Kingdom\nAffiliation at the time of the award: University of Oxford, Oxford, United Kingdom, Francis Crick Institute, London, United Kingdom",
+     "motivation": "For their discoveries of how cells sense and adapt to oxygen availability",
+     "nganh": "Medicine",
+     "id": "21"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/medicine/2019/William G. Kaelin Jr.webp",
+     "name": "William G. Kaelin Jr",
+     "year": 2019,
+     "prize": "1/3",
+     "data": "Born: 23 November 1957, New York, NY, USA\nAffiliation at the time of the award: Harvard Medical School, Boston, MA, USA, Howard Hughes Medical Institute, Chevy Chase, MD, USA, Dana-Farber Cancer Institute, Boston, MA, USA, Brigham and Women's Hospital, Boston, MA, USA",
+     "motivation": "For their discoveries of how cells sense and adapt to oxygen availability",
+     "nganh": "Medicine",
+     "id": "22"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/medicine/2018/James P. Allison.jpg",
+     "name": "James P. Allison",
+     "year": 2018,
+     "prize": "1/2",
+     "data": "Born: 7 August 1948, Alice, TX, USA\nAffiliation at the time of the award: Parker Institute for Cancer Immunotherapy, San Francisco, CA, USA, University of Texas MD Anderson Cancer Center, Houston, TX, USA",
+     "motivation": "For their discovery of cancer therapy by inhibition of negative immune regulation",
+     "nganh": "Medicine",
+     "id": "23"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/medicine/2018/Tasuku Honjo.jpg",
+     "name": "Tasuku Honjo",
+     "year": 2018,
+     "prize": "1/2",
+     "data": "Born: 27 January 1942, Kyoto, Japan\nAffiliation at the time of the award: Kyoto University, Kyoto, Japan",
+     "motivation": "For their discovery of cancer therapy by inhibition of negative immune regulation",
+     "nganh": "Medicine",
+     "id": "24"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/peace/2021/Dmitry Andreyevich Muratov.jpg",
+     "name": "Dmitry Andreyevich Muratov",
+     "year": 2021,
+     "prize": "1/2",
+     "data": "Born: 30 November 1960, Kubyshev, USSR (now Samara, Russia)\nResidence at the time of the award: Russia",
+     "motivation": "For their efforts to safeguard freedom of expression, which is a precondition for democracy and lasting peace",
+     "nganh": "Peace",
+     "id": "25"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/peace/2021/Maria Ressa.webp",
+     "name": "Maria Ressa",
+     "year": 2021,
+     "prize": "1/2",
+     "data": "Born: 2 October 1963, Manila, Philippines\nResidence at the time of the award: Philippines",
+     "motivation": "For their efforts to safeguard freedom of expression, which is a precondition for democracy and lasting peace",
+     "nganh": "Peace",
+     "id": "26"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/peace/2020/World Food Programme (WFP).jpg",
+     "name": "World Food Programme (WFP)",
+     "year": 2020,
+     "prize": "1/1",
+     "data": "Founded: 1961",
+     "motivation": "For its efforts to combat hunger, for its contribution to bettering conditions for peace in conflict-affected areas and for acting as a driving force in efforts to prevent the use of hunger as a weapon of war and conflic",
+     "nganh": "Peace",
+     "id": "27"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/peace/2019/Abiy Ahmed Ali.webp",
+     "name": "Abiy Ahmed Ali",
+     "year": 2019,
+     "prize": "1/1",
+     "data": "Born: 15 August 1976, Beshasha, Ethiopia\nRole: Prime Minister of the Federal Democratic Republic of Ethiopia",
+     "motivation": "For his efforts to achieve peace and international cooperation, and in particular for his decisive initiative to resolve the border conflict with neighbouring Eritrea",
+     "nganh": "Peace",
+     "id": "28"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/peace/2018/Denis Mukwege.jpg",
+     "name": "Denis Mukwege",
+     "year": 2018,
+     "prize": "1/2",
+     "data": "Born: 1 March 1955, Bukavu, Belgian Congo (now Democratic Republic of the Congo)",
+     "motivation": "For their efforts to end the use of sexual violence as a weapon of war and armed conflict",
+     "nganh": "Peace",
+     "id": "29"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/peace/2018/Nadia Murad Basee Taha.webp",
+     "name": "Nadia Murad Basee Taha",
+     "year": 2018,
+     "prize": "1/2",
+     "data": "Born: 4 August 1948, Rome, Italy\nAffiliation at the time of the award: Sapienza University of Rome, Rome, Italy",
+     "motivation": "For the discovery of the interplay of disorder and fluctuations in physical systems from atomic to planetary scales",
+     "nganh": "Physic",
+     "id": "31"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/Physicsnobel/2021/Giorgio Parisi.webp",
+     "name": "Giorgio Parisi",
+     "year": 2021,
+     "prize": "1/4",
+     "data": "Born: 4 August 1948, Rome, Italy\nAffiliation at the time of the award: Sapienza University of Rome, Rome, Italy",
+     "motivation": "For the discovery of the interplay of disorder and fluctuations in physical systems from atomic to planetary scales",
+     "nganh": "Physic",
+     "id": "31"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/Physicsnobel/2021/Klaus Hasselmann.webp",
+     "name": "Klaus Hasselmann",
+     "year": 2021,
+     "prize": "1/4",
+     "data": "Born: 25 October 1931, Hamburg, Germany\nAffiliation at the time of the award: Max Planck Institute for Meteorology, Hamburg, Germany",
+     "motivation": "For the physical modelling of Earth’s climate, quantifying variability and reliably predicting global warming",
+     "nganh": "Physic",
+     "id": "32"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/Physicsnobel/2021/Syukuro manabe.webp",
+     "name": "Syukuro manabe",
+     "year": 2021,
+     "prize": "1/4",
+     "data": "Born: 21 September 1931, Shingu, Ehime, Japan\nAffiliation at the time of the award: Princeton University, Princeton, NJ, USA",
+     "motivation": "For the physical modelling of Earth’s climate, quantifying variability and reliably predicting global warming",
+     "nganh": "Physic",
+     "id": "33"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/Physicsnobel/2020/Andrea Ghez.webp",
+     "name": "Andrea Ghez",
+     "year": 2020,
+     "prize": "1/4",
+     "data": "Born: 16 June 1965, New York, NY, USA\nAffiliation at the time of the award: University of California, Los Angeles, CA, USA",
+     "motivation": "For the discovery of a supermassive compact object at the centre of our galaxy",
+     "nganh": "Physic",
+     "id": "34"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/Physicsnobel/2020/Reinhard Genzel.webp",
+     "name": "Reinhard Genzel",
+     "year": 2020,
+     "prize": "1/4",
+     "data": "Born: 24 March 1952, Bad Homburg vor der Höhe, Germany\nAffiliation at the time of the award: Max Planck Institute for Extraterrestrial Physics, Garching, Germany, University of California, Berkeley, CA, USA",
+     "motivation": "For the discovery of a supermassive compact object at the centre of our galaxy",
+     "nganh": "Physic",
+     "id": "35"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/Physicsnobel/2020/Roger Perose.webp",
+     "name": "Roger Perose",
+     "year": 2020,
+     "prize": "1/2",
+     "data": "Born: 8 August 1931, Colchester, United Kingdom\nAffiliation at the time of the award: University of Oxford, Oxford, United Kingdom",
+     "motivation": "For the discovery that black hole formation is a robust prediction of the general theory of relativity",
+     "nganh": "Physic",
+     "id": "36"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/Physicsnobel/2019/Didier Queloz.webp",
+     "name": "Didier Queloz",
+     "year": 2019,
+     "prize": "1/4",
+     "data": "Born: 23 February 1966, Geneva, Switzerland\nAffiliation at the time of the award: University of Geneva, Geneva, Switzerland, University of Cambridge, Cambridge, United Kingdom",
+     "motivation": "For the discovery of an exoplanet orbiting a solar-type star",
+     "nganh": "Physic",
+     "id": "37"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/Physicsnobel/2019/James Peebles.webp",
+     "name": "James Peebles",
+     "year": 2019,
+     "prize": "1/2",
+     "data": "Born: 25 April 1935, Winnipeg, Canada\nAffiliation at the time of the award: Princeton University, Princeton, NJ, USA",
+     "motivation": "For theoretical discoveries in physical cosmology",
+     "nganh": "Physic",
+     "id": "38"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/Physicsnobel/2019/Michel Mayor.jpg",
+     "name": "Michel Mayor",
+     "year": 2019,
+     "prize": "1/4",
+     "data": "Born: 12 January 1942, Lausanne, Switzerland\nAffiliation at the time of the award: University of Geneva, Geneva, Switzerland",
+     "motivation": "For the discovery of an exoplanet orbiting a solar-type star",
+     "nganh": "Physic",
+     "id": "39"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/Physicsnobel/2018/Arthur Ashkin.jpg",
+     "name": "Arthur Ashkin",
+     "year": 2019,
+     "prize": "1/2",
+     "data": "Born: 2 September 1922, New York, NY, USA.Born: 2 September 1922, New York, NY, USA\nAffiliation at the time of the award: Bell Laboratories, Holmdel, NJ, USA",
+     "motivation": "For the optical tweezers and their application to biological systems",
+     "nganh": "Physic",
+     "id": "40"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/Physicsnobel/2018/Donna Strickland.jpg",
+     "name": "Donna Strickland",
+     "year": 2018,
+     "prize": "1/4",
+     "data": "Born: 27 May 1959, Guelph, Canada\nAffiliation at the time of the award: University of Waterloo, Waterloo, Canada",
+     "motivation": "For their method of generating high-intensity, ultra-short optical pulses",
+     "nganh": "Physic",
+     "id": "41"
+    },
+    {
+     "image": "../home/Prize/Prize Component/image/Physicsnobel/2018/Gérard Mourou.jpg",
+     "name": "Gérard Mourou",
+     "year": 2018,
+     "prize": "1/4",
+     "data": "Born: 22 June 1944, Albertville, France Affiliation at the time of the award: École Polytechnique, Palaiseau, France, University of Michigan, Ann Arbor, MI, USA",
+     "motivation": "For their method of generating high-intensity, ultra-short optical pulses",
+     "nganh": "Physic",
+     "id": "42"
+    }
+   ]

@@ -1,0 +1,97 @@
+  /* ------PC----------
+  @media only screen and (min-device-width: 360px) {
+      body{
+          width: 360px;
+          height: 3000px;
+      }
+      header{
+        width: 360px;
+        height: 100px;
+      }
+      header span img{
+        display: none;
+      }
+      #title{
+        font-size: 15px;
+        width: 359px;
+        height: 100px;
+        margin: 0px;
+        padding: 10px;
+      }
+      .container-fluid {
+        width: 359px;
+      }
+      .container-fluid .w3-content img{
+        width: 200px;
+      }
+      .container-fluid .col-3 h3{
+        font-size: 15px;
+      }
+      .container-fluid .col-3 img{
+        width: 50px;
+        height: 50px;
+      }
+      .container-fluid .col-3 a{
+        font-size: 5px;
+      }
+      .container-fluid video{
+        width: 100px;
+      }
+      footer{
+        width: 360px;
+        height: 200px;
+        margin: 2px;
+      }
+      footer .left , .center,.center-2,.right{
+        width: 80px;
+        height: 200px;
+      }
+      .left h2{
+        font-size: 8px;
+      }
+      .center h2{
+        font-size: 8px;
+      }
+      .center-2 h2{
+        font-size: 8px;
+      }
+      .right h2{
+        font-size: 8px;
+      }
+      .left .content p{
+        font-size: 5px;
+      }
+      .center  .text{
+        font-size: 5px;
+      }
+      .center .place .fas{
+        font-size: 5px;
+      }
+      .center .phone .fas{
+        font-size: 5px;
+      }
+      .center .email .fas{
+        font-size: 5px;
+      }
+      .social{
+        display: none;
+      }
+      .center-2 .content .faqs a{
+        font-size: 10px;
+      }
+      .center-2 .content .text{
+        font-size: 10px;
+      }
+      .right .content .email{
+        font-size: 10px;
+      }
+      .right .content .email input{
+        width: 60px;
+      }
+      .right .content .msg {
+        font-size: 10px;
+      }
+      .right .content .msg textarea{
+        width: 60px;
+      }
+  } */
