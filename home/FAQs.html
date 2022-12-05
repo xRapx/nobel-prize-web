@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOBEL</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular-route.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://code.jquery.com/jquery-3.6.0.min.js" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" href="../demo.css">
+    <link rel="stylesheet" href="../css/head.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.4/css/all.css">
+    <link rel="stylesheet" href="../css/FAQs.css">
+    <link rel="stylesheet" href="../footer.css">
+    <link rel="stylesheet" href="../css/reponsive.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <span><img src="../image/LOGO.jpg" height="240px" id="logo"></span>
+            <span id="title">THE NOBEL PRIZE</span>
+        </header>
+    </div>
+    <nav id="top">
+        <!-- Navbar links -->
+        <a href="../index.html">HOME</a>
+        <a href="../home/prize.html">PRIZE</a>
+        <a href="../home/alfrednobel.html">ALFRED NOBEL</a>
+        <a href="../home/event.html">EVENT</a>
+        <a href="../home/news.html">NEWS</a>
+    </nav>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="wrapper">
+                <div class="header">
+                    <h1>FAQs</h1>
+                </div>
+                <div class="category">
+                    <h2>The Nobel Prize</h2>
+                </div>
+                <div class="inner">
+                    <div class="item">
+                        <h3>Why is there a Nobel Prize?
+                            <i class="fas fa-chevron-down"></i>
+                        </h3>
+                        <div class="body">
+                            The Nobel Prize was set up when businessman and entrepreneur Alfred Nobel died and left the
+                            majority of his fortune to the establishment of prizes in physics, chemistry, physiology or
+                            medicine, literature and peace. His will stated that the prizes should be awarded to “those
+                            who, during the preceding year, shall have conferred the greatest benefit to humankind.” 
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="item">
+                        <h3>What are the Nobel Prize categories?
+                            <i class="fas fa-chevron-down"></i>
+                        </h3>
+                        <div class="body">
+                            The Nobel Prize categories are physics, chemistry, physiology or medicine, literature and
+                            peace – these were laid out in the will of Alfred Nobel. In
+                            1968, Sveriges Riksbank (Sweden’s central bank) established the Sveriges Riksbank Prize in
+                            Economic Sciences in Memory of Alfred Nobel. 
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="item">
+                        <h3>How long have you been awarding the Nobel Prize?
+                            <i class="fas fa-chevron-down"></i>
+                        </h3>
+                        <div class="body">
+                            The first Nobel Prizes were awarded in 1901 and they have been awarded annually since
+                            then. There have been years in that time when the Nobel Prizes have not been
+                            awarded - mostly during World War I (1914-1918) and II (1939-1945). 
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="item">
+                        <h3>Where dose the Prize money come from?
+                            <i class="fas fa-chevron-down"></i>
+                        </h3>
+                        <div class="body">
+                            When Alfred Nobel died leaving the majority of his fortune to the establishment of the
+                            Nobel Prize he stated that the money should be converted into a fund and invested in “safe
+                            securities.” Today the interest earned on that money is used to fund the Nobel Prizes. 
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="category">
+                    <h2>Nobel Prize laureates</h2>
+                </div>
+                <div class="inner">
+                    <div class="item">
+                        <h3>Why are they called Nobel Prize laureates?
+                            <i class="fas fa-chevron-down"></i>
+                        </h3>
+                        <div class="body">
+                            The word “laureate” refers to being signified by the laurel wreath. In ancient Greece,
+                            laurel wreaths were awarded to victors as a sign of honour. Put that together with the Nobel
+                            Prize and we get “Nobel Prize laureate”. 
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="item">
+                        <h3>How many people can share the same Nobel Prize?
+                            <i class="fas fa-chevron-down"></i>
+                        </h3>
+                        <div class="body">
+                            A Nobel Prize can be shared by up to three individuals, or in the case of the peace prize,
+                            it can also be awarded to an organisation. The rule that a prize can only be awarded to
+                            three people comes from the statutes of the Nobel Foundation, which is responsible for
+                            fulfilling the intentions of Nobel’s will. It specifically states: “In no case may a prize
+                            amount be divided between more than three persons.” 
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="item">
+                        <h3>Can you award a prize posthumously?
+                            <i class="fas fa-chevron-down"></i>
+                        </h3>
+                        <div class="body">
+                            No, a Nobel Prize cannot be awarded posthumously. However, since 1974, if the recipient dies
+                            after the prize has been announced they can still be awarded it. Previously, a person could
+                            be awarded a prize posthumously if they had already been nominated before 1 February of the
+                            same year, which was true of Erik Axel Karlfeldt (Nobel Prize in Literature 1931) and Dag
+                            Hammarskjöld (Nobel Peace Prize, 1961). Following the 2011 announcement of the Nobel Prize
+                            in Physiology or Medicine, it was discovered that one of the medicine laureates, Ralph
+                            Steinman, had passed away three days earlier. The Board of the Nobel Foundation examined
+                            the statutes, and came to the conclusion that Ralph Steinman should continue to remain a
+                            Nobel Prize laureate, as the Nobel Assembly at Karolinska Institutet had announced the 2011
+                            Nobel Prize laureates in physiology or medicine without knowing of his death. 
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="item">
+                        <h3>How can I contact a Nobel Prize laureates?
+                            <i class="fas fa-chevron-down"></i>
+                        </h3>
+                        <div class="body">
+                            The Nobel Foundation does not disclose addresses to Nobel Prize laureates out of courtesy.
+                            Please contact the institution, organisation or university to which the Nobel Prize laureate
+                            was affiliated at the time of the award. For literature laureates please contact their
+                            publishing house. Alternatively you may be able to contact some laureates via social media. 
+                        </div>
+                    </div>
+                </div>
+                <div class="category">
+                    <h2>How Nobel Prize laureates are chosen</h2>
+                </div>
+                <div class="inner">
+                    <div class="item">
+                        <h3>Who selects the Nobel Prize laureates?
+                            <i class="fas fa-chevron-down"></i>
+                        </h3>
+                        <div class="body">
+                            In his last will and testament, Alfred Nobel specifically designated the institutions
+                            responsible for the prizes he wished to be established.<br>
+                            <ul>
+                                <li>The Royal Swedish Academy of Sciences for the Nobel Prize in Physics and Chemistry
+                                </li>
+                                <li>Karolinska Institutet (now The Nobel Assembly at Karolinska Institutet) for the
+                                    Nobel Prize in Physiology or Medicine</li>
+                                <li>The Swedish Academy for the Nobel Prize in Literature</li>
+                                <li>A committee of five persons to be elected by the Norwegian Parliament (Storting) for
+                                    the Nobel Peace Prize.</li>
+                            </ul>
+                            The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel was instituted in
+                            1968, on the tercentenary of the bank. The Royal Swedish Academy of Sciences was given the
+                            task of selecting the  economic sciences laureates. It has been awarded since 1969 according
+                            to the same principles as the Nobel Prizes.
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="item">
+                        <h3>How do you become anominated for a Nobel Prize?
+                            <i class="fas fa-chevron-down"></i>
+                        </h3>
+                        <div class="body">
+                            In order to become a Nobel Prize laureate you must first be nominated for a prize by an
+                            eligible nominator. Self-nomination is not allowed. Except for the Nobel Peace Prize,
+                            nomination is by invitation only and nominators must fulfil the criteria set out by the
+                            awarding institutions.<br>Eligible nominations are then considered by the prize awarders,
+                            who make the final decision as to who will receive a Nobel Prize.<br>To find out who can be
+                            a nominator in each prize category, see the links below. 
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="item">
+                        <h3>How can you become a nominator?
+                            <i class="fas fa-chevron-down"></i>
+                        </h3>
+                        <div class="body">
+                            Only people who fulfil the criteria set out by the prize awarding institutions are allowed
+                            to nominate candidates for the Nobel Prize. To find out who can be a nominator in each prize
+                            category, see the links below.
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="item">
+                        <h3>Is it possible to nominate someone for a posthumous Nobel Prize?
+                            <i class="fas fa-chevron-down"></i>
+                        </h3>
+                        <div class="body">
+                            No, it is not possible to nominate someone for a posthumous Nobel Prize.
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="category">
+                    <h2>The Nobel Prize award ceremonies</h2>
+                </div>
+                <div class="inner">
+                    <div class="item">
+                        <h3>What is the Nobel day?
+                            <i class="fas fa-chevron-down"></i>
+                        </h3>
+                        <div class="body">
+                            The Nobel Day – which takes place on 10 December every year – marks the anniversary of
+                            Alfred Nobel’s death and is the day that the Nobel Prizes are presented to Nobel Prize
+                            laureates.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(".fas.fa-chevron-down").on('click', function () {
+            $(this).parent().parent().find('.body').slideToggle();
+        })
+    </script>
+    <footer>
+        <div class="main-content">
+            <div class="left box">
+                <h2>About Us</h2>
+                <hr>
+                <div class="content">
+                    <p>
+                        Due to the lack information about The Nobel prize, we have decided to create this website to help
+                    all people who need any information knows where to find.<br>
+                        We're trying our best to keep the data up to date and if there is any problem or you have any idea to 
+                    help us improve our website. Please send us feedback!<br>
+                    Thank you for your support and hope you enjoy our website! <i class="fa-solid fa-heart"></i> <i class="fa-solid fa-heart"></i>
+                    </p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/nobelprize"><span class="fab fa-facebook-f"></span></a>
+                        <a href="https://twitter.com/NobelPrize?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><span class="fab fa-twitter"></span></a>
+                        <a href="https://www.instagram.com/nobelprize_org/"><span class="fab fa-instagram"></span></a>
+                        <a href="https://www.youtube.com/c/NobelPrize/videos"><span class="fab fa-youtube"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="center box">
+                <h2>CONTACT US</h2>
+                <hr>
+                <div class="content">
+                    <div class="place">
+                        <i class="fas fa-map-marker"></i>
+                        <span class="text">590 Cach Mang Thang 8, Ward 11, District 3, Ho Chi Minh City, Viet Nam</span>
+                    </div><br>
+                    <div class="phone">
+                        <span class="fas fa-phone"></span>
+                        <span class="text">(+84) 220303507</span>
+                    </div><br>
+                    <div class="email">
+                        <span class="fas fa-envelope"></span>
+                        <span class="text">nobelprize.org@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="center-2 box">
+                <h2>GET HElP</h2>
+                <hr>
+                <div class="content">
+                    <div class="faqs"><a href="FAQs.html">FAQs</a></div>
+                    <br>
+                    <div class="text">Tutorials</div>
+                </div>
+            </div>
+            <div class="right box">
+                <h2>FEEDBACK</h2>
+                <hr>
+                <div class="content">
+                    <form onsubmit="return feedBack()" id="form">
+                        <div class="email">
+                            <div class="text">Email*</div>
+                            <input type="email" required>
+                        </div>
+                        <div class="msg">
+                            <div class="text">Message*</div>
+                            <textarea name="text" id="text" cols="25" rows="4" required></textarea>
+                        </div>
+                            <input type="submit" value="Send" id="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
