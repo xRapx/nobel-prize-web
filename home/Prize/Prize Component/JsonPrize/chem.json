@@ -1,0 +1,25 @@
+{
+    "Chemistry":[
+        {"IMG": "Eproject/chemistry/2021/Benjamin List.webp","Name":"Benjamin List","Year":2021,"Prize":"1/2",
+        "Data":"Born: 11 January 1968, Frankfurt-on-the-Main, Germany\nAffiliation at the time of the award: Max-Planck-Institut für Kohlenforschung, Mülheim an der Ruhr, Germany","Motivation":"For the development of asymmetric organocatalysis"},
+        {"IMG": "Eproject/chemistry/2021/c","Name":"David W.C. MacMillan","Year":2021,"Prize":"1/2",
+        "Data":"Born: 16 March 1968, Bellshill, United Kingdom\nAffiliation at the time of the award: Princeton University, Princeton, NJ, USA","Motivation":"For the development of asymmetric organocatalysis"},
+
+        {"IMG":"Eproject/chemistry/2020/Jennifer A. Doudna.webp","Name":"Jennifer A. Doudna","Year":2020,"Prize":"1/2",
+        "Data":"Born: 19 February 1964, Washington, DC, USA\nAffiliation at the time of the award: University of California, Berkeley, CA, USA","Motivation":"For the development of a method for genome editing"},
+        {"IMG": "Eproject/chemistry/2020/Emmanuelle Charpentier.jpg","Name":"Emmanuelle Charpentier","Year":2020,"Prize":"1/2",
+        "Data":"Born: 11 December 1968, Juvisy-sur-Orge, France\nAffiliation at the time of the award: Max Planck Unit for the Science of Pathogens, Berlin, Germany","Motivation":"For the development of a method for genome editing"},
+ 
+        {"IMG": "Eproject/chemistry/2019/Akira Yoshino.webp","Name":"Akira Yoshino","Year":2019,"Prize":"1/3",
+        "Data":"Born: 30 January 1948, Suita, Japan\nAffiliation at the time of the award: Asahi Kasei Corporation, Tokyo, Japan, Meijo University, Nagoya, Japan","Motivation":"For the development of lithium-ion batteries"},
+        {"IMG": "Eproject/chemistry/2019/John B. Goodenough.webp","Name":"John B. Goodenough","Year":2019,"Prize":"1/3",
+        "Data":"Born: 25 July 1922, Jena, Germany\nAffiliation at the time of the award: University of Texas, Austin, TX, USA","Motivation":"For the development of lithium-ion batteries"},
+        {"IMG": "Eproject/chemistry/2019/M. Stanley Whittingham.webp","Name":"M. Stanley Whittingham","Year":2019,"Prize":"1/3",
+        "Data":"Born: 22 December 1941, United Kingdom\nAffiliation at the time of the award: Binghamton University, State University of New York, New York, NY, USA","Motivation":"For the development of lithium-ion batteries"},
+
+        {"IMG": "Eproject/chemistry/2018/Fances H.Arnold.jpg","Name":"Frances H. Arnold","Year":2018,"Prize" : "1/2", "Data": "Born: 25 July 1956, Pittsburgh, PA, USA \n Affiliation at the time of the award: California Institute of Technology (Caltech), Pasadena, CA, ","Motivation":"For the directed evolution of enzymes"},
+        {"IMG": "Eproject/chemistry/2018/George P. Smith.jpg","Name":"George P. Smith","Year":2018, "Prize":"1/4" , "Data":"Born: 10 March 1941, Norwalk, CT, USA \n Affiliation at the time of the award: University of Missouri, Columbia, USA","Motivation":"For the phage display of peptides and antibodies"},
+       {"IMG": "Eproject/chemistry/2018/Sir Gregory P. Winter.jpg","Name":"Sir Gregory P. Winter","Year":2018,  "Prize":"1/4" , "Data":"Born: 14 April 1951, Leicester, United Kingdom \nAffiliation at the time of the award: MRC Laboratory of Molecular Biology, Cambridge, United Kingdom","Motivation":"For the phage display of peptides and antibodies"}
+    ]
+}
+

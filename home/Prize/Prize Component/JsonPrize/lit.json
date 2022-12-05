@@ -1,0 +1,11 @@
+{
+    "Literature":[
+        {"IMG": "Eproject/literature/2021/Abdulrazak Gurnah.webp","Name":"Abdulrazak Gurnah","Year":2021,"Prize":"1/1","Data":"Born: 30 November 1947","Motivation":"For his uncompromising and compassionate penetration of the effects of colonialism and the fate of the refugee in the gulf between cultures and continents"},
+
+       {"IMG": "Eproject/literature/2020/Louise Glück.jpg","Name":"Louise Glück","Year":2020,"Prize":"1/1","Data":"Born: 22 April 1943, New York, NY, USA\nResidence at the time of the award: Cambridge, MA, USA","Motivation":"For her unmistakable poetic voice that with austere beauty makes individual existence universal"},
+
+        {"IMG": "Eproject/literature/2019/Peter Handke.jpg","Name":"Peter Handke","Year":2019,"Prize":"1/1","Data":"Born: 6 December 1942, Griffen, Austria\nResidence at the time of the award: Chaville, France","Motivation":"For an influential work that with linguistic ingenuity has explored the periphery and the specificity of human experience"},
+
+       {"IMG": "Eproject/literature/2018/Olga Tokarczuk.webp","Name":"Olga Tokarczuk","Year":2018,"Prize":"1/1","Data":"Born: 29 January 1962, Sulechów, Poland\nResidence at the time of the award: Wroclaw, Poland","Motivation":"For a narrative imagination that with encyclopedic passion represents the crossing of boundaries as a form of life"}
+    ]
+}
