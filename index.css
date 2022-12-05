@@ -1,0 +1,550 @@
+ body {
+ width: 1520px;
+} 
+
+h2 {
+  width: 300px;
+}
+
+#div-header header ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: #d7a942;
+  margin: 0%;
+}
+#div-header header ul li {
+  height: 150px;
+}
+#div-header header img {
+  height: 140px;
+  padding: 10px 0px;
+}
+
+#div-header header ul li h1 {
+  font-family: cursive;
+  color: #d7a942;
+  font-size: 70px;
+  color: black;
+  background-color: #d7a942;
+  padding: 5px 15px;
+}
+
+img {
+  width: 250px;
+  height: 300px;
+}
+
+span {
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+/*------------home------------------*/
+#home-table{
+  display: block;
+  width: 1130px;
+}
+#home-table tbody{
+  width: 1130px;
+}
+#home-table tbody tr{
+  width: 1130px;
+}
+#home-table tbody tr ul{
+  padding: 10px 10px;
+
+}
+#home-table td{
+  width: 700px;
+}
+#home-table .home-ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  
+}
+/*---------------- NAV INDEX---------- */
+.navbar-expand-sm .navbar-collapse {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+/*-------MENU PRIZE---------*/
+.container {
+  max-width: 1130px;
+  margin: 0px auto;
+}
+
+#header {
+  background-color: #262323;
+}
+
+#main-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#main-menu li {
+  position: relative;
+}
+
+#main-menu li a {
+  color: white;
+  display: block;
+  padding: 18px 20px;
+  text-decoration: none;
+}
+
+#main-menu li a:hover {
+  background-color: rgb(61, 61, 37);
+}
+
+#main-menu ul.sub-menu {
+  position: absolute;
+  background-color: #262323;
+  padding: 15px 0px;
+  list-style: none;
+  width: 100px;
+  display: none;
+}
+
+#main-menu li:hover ul.sub-menu {
+  display: block;
+}
+
+#main-menu ul.sub-menu a {
+  padding: 10px 15px;
+  border-bottom: 1px solid #1c1818;
+}
+
+#main-menu ul.sub-menu li:hover a {
+  border-bottom: 2px solid #7f7c7c;
+}
+
+/*------Sline Show IMAGE-----*/
+#slideshow {
+  overflow: hidden;
+  height: 400px;
+  width: 900px;
+  padding: 0%;
+  float: left;
+}
+#slideshow tr{
+  display: block;
+  width: 900px;
+}
+
+.slide-wrapper {
+  width: 2700px;
+  animation: slide 15s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 400px;
+  width: 900px;
+  margin-top: 30px;
+}
+
+.slide p a {
+  text-decoration: none;
+  color: blue;
+  padding: 0px 20px;
+}
+
+.slide p a:hover {
+  color: rgb(132, 27, 132);
+}
+
+/*----Sline Show Video-----*/
+.div-img1 {
+  float: left;
+}
+
+video {
+  width: 300px;
+  height: 200px;
+}
+
+/*----Div Link-----*/
+.div-link {
+  width: 198px;
+  height: 700px;
+  display: block;
+  width: 200px;
+}
+
+.ul-link li {
+  margin: inherit;
+}
+
+.ul-link li a {
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(16, 14, 15);
+  margin: 0px 15px;
+  padding: 15px 0px;
+}
+
+.ul-link li a:hover {
+  color: violet;
+  text-decoration: revert;
+}
+/*---------ALFRED NOBEL--------*/
+#div-table {
+  width: 1130px;
+  height: 2250px;
+  display: block;
+}
+
+#div-table tr{
+  width: 1130px;
+  display: block;
+  text-align: center;
+}
+
+#div-table>h1 {
+  color: #d7a942;
+  font-family: cursive;
+  text-align: center;
+  font-size: 50px;
+  width: 300px;
+  display: block;
+}
+#div-table tr h1{
+  color:#d7a942;
+  font-family: cursive;
+  font-size: 50px;
+}
+#div-table td span {
+  height: 300px;
+  width: 800px;
+  display: block;
+}
+#div-table>tr>td>ul {
+  height: 300px;
+  width: 200px;
+}
+#div-table tr td h2 {
+  text-align: center;
+  color: #d7a942;
+  font-family: cursive;
+}
+#div-table tr td>p{
+  width: 300px;
+}
+#div-table>tr>td>h1{
+  width: 900px;
+}
+#div-table tr td ul>li {
+  color: #5b4923;
+  padding: 5px 0px;
+}
+#alfred-show {
+  overflow: hidden;
+  height: 400px;
+  width: 900px;
+  padding: 0%;
+  float: left;
+  margin-left: 150px;
+}
+
+.alfred-wrapper {
+  width: 2700px;
+  animation: alfred 15s ease infinite;
+  margin-left: 150px;
+}
+
+.alfred {
+  float: left;
+  height: 400px;
+  width: 900px;
+  margin-top: 10px;
+  
+}
+.alfred img {
+  width: 900px;
+  height: 350px;
+  display: flex;
+}
+/*----*/
+#key-show {
+  overflow: hidden;
+  height: 400px;
+  width: 800px;
+  padding: 0%;
+  float: left;
+}
+
+.key-wrapper {
+  width: 2700px;
+  animation: key 15s ease infinite;
+}
+
+.key {
+  float: left;
+  height: 400px;
+  width: 900px;
+  margin-top: 10px;
+  display: block;
+}
+.key h2 {
+  margin-left: 200px;
+  display: block;
+  width: 600px;
+}
+.key .key-p{
+  display: block;
+  font-size: 30px;
+  width: 800px; 
+  text-align: center;
+}
+/*------------*/
+#td-video {
+  width: 1130px;
+  display: block;
+}
+#td-video>ul {
+  display: flex;
+  width: 1080px;
+  justify-content: space-around;
+  list-style: none;
+}
+#td-video ul li{
+  width: 300px;
+}
+/*------------ABOUT US--------*/
+#div-about {
+  display: grid;
+}
+
+#div-about h1 {
+  text-align: center;
+  font-size: 80px;
+  font-family: cursive;
+  color: #d7a942;
+}
+
+#div-about #table-about tr td img {
+  border: 2px solid rgb(186, 177, 177);
+  border-radius: 110px;
+  height: auto;
+  width: 200px;
+}
+
+#div-about #table-about tr td {
+  text-align: center;
+}
+
+#div-about #table-about tr td span {
+  font-size: 16px;
+}
+
+/*----------FAQ----------*/
+#div-faq {
+  text-align: center;
+  font-size: 30px;
+}
+#div-faq h1 {
+  color: #d7a942;
+  font-family: cursive;
+}
+#div-faq .ul-faq {
+  list-style: none;
+  position: relative;
+  left: 0;
+}
+#div-faq .ul-faq > li {
+  border: 1px solid rgb(221, 211, 211);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #efe8e8;
+  margin: 40px 0px;
+  height: 50px;
+}
+#div-faq .ul-faq li span {
+  padding: 5px 20px;
+}
+#div-faq .ul-faq li .ul-child {
+  background-color: #a7a2a2;
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 730px;
+  list-style: none;
+  color: rgb(70, 29, 205);
+  text-align: center;
+  display: none;
+}
+#div-faq .ul-faq li span:hover .ul-child {
+  display: block;
+}
+#div-faq .ul-faq li .ul-child li {
+  text-align: start;
+  padding: 5px 0px;
+}
+#div-faq .ul-faq li .ul-child li:hover {
+  color: rgb(18, 18, 68);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+/*------Fooder------*/
+footer {
+  background-color: #d7a942;
+  height: 100px;
+}
+
+.div-footer1 {
+  width: 700px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  float: left;
+}
+
+.div-footer1 a {
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: cursive;
+}
+
+.div-footer1 a:hover {
+  color: violet;
+}
+
+.div-footer2 {
+  font-family: cursive;
+}
+
+.div-footer2 ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.div-footer2 ul li {
+  font-size: 70%;
+}
+
+.div-footer2 ul li i {
+  font-size: 18px;
+  padding: 6px 5px;
+}
+
+/*------KeyFrames------*/
+@keyframes slide {
+  20% {
+    margin-left: 0px;
+  }
+
+  30% {
+    margin-left: -900px;
+  }
+
+  50% {
+    margin-left: -900px;
+  }
+
+  60% {
+    margin-left: -1800px;
+  }
+
+  80% {
+    margin-left: -1800px;
+  }
+
+  100% {
+    margin-left: -1800px;
+  }
+}
+
+@keyframes video {
+  20% {
+    margin-left: 0px;
+  }
+
+  30% {
+    margin-left: -300px;
+  }
+
+  50% {
+    margin-left: -300px;
+  }
+
+  60% {
+    margin-left: -600px;
+  }
+}
+@keyframes alfred {
+  20% {
+    margin-left: 0px;
+  }
+
+  30% {
+    margin-left: -900px;
+  }
+
+  50% {
+    margin-left: -900px;
+  }
+
+  60% {
+    margin-left: -1800px;
+  }
+
+  80% {
+    margin-left: -1800px;
+  }
+
+  100% {
+    margin-left: -1800px;
+  }
+}
+@keyframes key {
+  20% {
+    margin-left: 0px;
+  }
+
+  30% {
+    margin-left: -900px;
+  }
+
+  50% {
+    margin-left: -900px;
+  }
+
+  60% {
+    margin-left: -1800px;
+  }
+
+  80% {
+    margin-left: -1800px;
+  }
+
+  100% {
+    margin-left: -1800px;
+  }
+}
+@media only screen and (min-device-width: 360px) {
+  body{
+      width: 360px;
+      height: 3000px;
+  }
+}
