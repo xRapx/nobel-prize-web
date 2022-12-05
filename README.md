@@ -1,1 +1,1 @@
-https://xrapx.github.io/New-eProject/
+https://xrapx.github.io/nobel-prize-web/
