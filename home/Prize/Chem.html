@@ -1,0 +1,75 @@
+<link rel="stylesheet" href="https://code.jquery.com/jquery-3.6.0.min.js" />
+
+<h1>Chem</h1>
+
+<div>
+    <nav>
+        <a href="#!Chem" id="all">Chemistry</a>
+        <a href="#!Phy" id="all">Physic</a>
+        <a href="#!Medi" id="all">Medicine</a>
+        <a href="#!Lit" id="all">Literature</a>
+        <a href="#!Pea" id="all">Peace</a>
+    </nav>
+    <input type="text" id="search" placeholder="Search" ng-model="name">
+
+    <table>
+        <tbody id="myTable"></tbody>
+    </table>
+    <!-- <table class="data">
+        <tr id="head">
+            <td>Picture</td>
+            <td>Name</td>
+            <td>Year won The Nobel Prize</td>
+            <td>Prize share</td>
+            <td>Prize Motivation</td>
+            <td>Information</td>
+        </tr>
+        <tr ng-repeat="c in Chem|filter:name">
+            <td id="ava">
+                <img ng-src="{{c.IMG}}" width="150px" height="170px">
+            </td>
+            <td id="name">
+                {{c.Name}}
+            </td>
+            <td id="year">
+                {{c.Year}}
+            </td>
+            <td id="prize">
+                {{c.Prize}}
+            </td>
+            <td id="moti">
+                {{c.Motivation}}
+            </td>
+            <td id="data">
+                {{c.Data}}
+            </td>
+        </tr>
+    </table> -->
+</div>
+<script>
+    alert('h1llo')
+    var postAPI = "https://62c6616174e1381c0a5ddc3a.mockapi.io/dataNobel/demo";
+    fetch(postAPI)
+        .then(function (response) {
+            // console.log(response);
+            return response.json(); //return về 1 mảng chứa Object và javacript types
+        })
+        .then((data) => {
+            // console.log(data)
+            //search Year
+            document.getElementById("all").onclick = function () {
+                var table = "";
+                let getAll = data.filter((data) => {
+                    table += `<tr>
+          <td><img style="width: 183px;" src="${data.image}"/></td>
+          <td>${data.name}</td>
+          <td>${data.year}</td>
+          <td>${data.prize}</td>
+          <td>${data.data}</td>
+          <td>${data.motivation}</td>
+          </tr>`
+                    document.getElementById("myTable").innerHTML = table
+                })
+            };
+        });
+</script>

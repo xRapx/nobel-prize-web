@@ -1,0 +1,42 @@
+<h1>Medi</h1>
+<div>
+    <nav id="topic">
+        <a href="#!Chem">Chemistry</a>
+        <a href="#!Phy">Physic</a>
+        <a href="#!Medi">Medicine</a>
+        <a href="#!Lit">Literature</a>
+        <a href="#!Pea">Peace</a>
+    </nav>
+    <input type="text" id="search" placeholder="Search" ng-model="name">
+
+    <table class="data">
+        <tr id="head">
+            <td>Picture</td>
+            <td>Name</td>
+            <td>Year won The Nobel Prize</td>
+            <td>Prize share</td>
+            <td>Prize Motivation</td>
+            <td>Information</td>
+        </tr>
+        <tr ng-repeat="m in Medi|filter:name">
+            <td id="ava">
+                <img ng-src="{{m.IMG}}" width="150px" height="170px">
+            </td>
+            <td id="name">
+                {{m.Name}}
+            </td>
+            <td id="year">
+                {{m.Year}}
+            </td>
+            <td id="prize">
+                {{m.Prize}}
+            </td>
+            <td id="moti">
+                {{m.Motivation}}
+            </td>
+            <td id="data">
+                {{m.Data}}
+            </td>
+        </tr>
+    </table>
+</div>

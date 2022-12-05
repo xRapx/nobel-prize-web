@@ -1,0 +1,123 @@
+header{
+    background-color: #D7A942;
+}
+#logo{
+    margin-left: 450px ;
+}
+#title{
+    font-weight: bold;
+    margin-left: 100px;
+    font-size: 50px;
+}
+#menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: #D7A942;
+    padding: 10px;         
+}
+#menu a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    margin-top: 15px;
+}
+#menu a:hover{
+    background-color: rgba(154, 100, 0, 0.805);
+}
+footer{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sub{
+    margin-left: 120px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+table{
+    padding-left: 20px;
+    text-align: center;
+}
+tr>td {
+    padding-bottom: 1em;
+    padding-top: 1em;
+} 
+th{
+    color: #cb9219;
+    font-size: 35px;
+    text-align: left;
+}
+td{
+    width: 500px;
+    font-size: 20px;
+}
+
+#topic{
+    background-color: black;
+    padding: 20px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#topic a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin-top: 15px;
+}
+#topic a:hover{
+    background-color: rgba(156, 156, 156, 0.805);
+}
+#choice{
+    margin-left: 5px;
+    border: solid;
+    font-weight: bold;
+    width: 70px;
+    height: 40px;
+}
+#search{
+    border: solid;
+    width: 1200px;
+    margin-left: 90px;
+    height: 40px;
+}
+.data{
+    margin-left: 150px;
+    width: 80%;
+}
+#head{
+    font-weight: bold;  
+}
+#ava{
+    border-top: solid;  
+    width: 13%;
+}
+#name{
+    border-top: solid;  
+    width: 16%;
+}
+#year{  
+    border-top: solid;  
+    width: 8%;
+}
+#prize{
+    border-top: solid;  
+    width: 8%;
+}
+#moti{
+    border-top: solid;  
+    width: 18%;
+}
+#data{
+    padding-left: 10px;
+    border-top: solid;      
+    width: 32%;
+}

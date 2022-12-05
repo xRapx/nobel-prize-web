@@ -1,0 +1,44 @@
+<h1>Lit</h1>
+<div>
+    <nav id="topic">
+        <a href="#!Chem">Chemistry</a>
+        <a href="#!Phy">Physic</a>
+        <a href="#!Medi">Medicine</a>
+        <a href="#!Lit">Literature</a>
+        <a href="#!Pea">Peace</a>
+    </nav>
+    <input type="text" id="search" placeholder="Search" ng-model="name">
+
+
+    <table class="data">
+        <tr id="head">
+            <td>Picture</td>
+            <td>Name</td>
+            <td>Year won The Nobel Prize</td>
+            <td>Prize share</td>
+            <td>Prize Motivation</td>
+            <td>Information</td>
+        </tr>
+        <tr ng-repeat="l in Lit|filter:name">
+            <td id="ava">
+                <img ng-src="{{l.IMG}}" width="150px" height="170px">
+            </td>
+            <td id="name">
+                {{l.Name}}
+            </td>
+            <td id="year">
+                {{l.Year}}
+            </td>
+            <td id="prize">
+                {{l.Prize}}
+            </td>
+            <td id="moti">
+                {{l.Motivation}}
+            </td>
+            <td id="data">
+                {{l.Data}}
+            </td>
+        </tr>
+    </table>
+
+</div>

@@ -1,0 +1,95 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nobel Prize</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <script  src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular-route.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="eProject.css">
+</head>
+<body >
+    <header>
+        <span><img src="LOGO.jpg" alt="logo" height="200px" width="200px" id="logo"></span>
+        <span id="title">THE NOBEL PRIZE</span>
+    </header>
+    <nav id="menu">
+        <a href="#/!">Home</a>
+        <a href="#!Prize">Prize</a>
+        <a href="#!Nobel">ALFRED NOBEL</a>
+        <a href="#!Event">Event</a>
+        <a href="#!News">News</a>
+    </nav>
+
+    <div ng-view></div>
+
+    <script>
+        var app=angular.module('myApp',['ngRoute']);
+        app.config(function($routeProvider){
+            $routeProvider
+            .when("/",{
+            templateUrl  :  "Home.html"
+            })
+                .when("/Prize",  { templateUrl  :  "Prize.html"
+                })
+                .when("/Nobel",  { templateUrl  :  "Nobel.html"
+                })
+                .when("/Event",  { templateUrl  :  ""
+                })
+                .when("/News",  { templateUrl  :  ""
+                })
+                .when("/Chem",  { templateUrl  :  "Prize/Chem.html"
+                })
+                .when("/Phy",  { templateUrl  :  "Prize/Phy.html"
+                })
+                .when("/Medi",  { templateUrl  :  "Prize/Medi.html"
+                })
+                .when("/Lit",  { templateUrl  :  "Prize/Lit.html"
+                })
+                .when("/Pea",  { templateUrl  :  "Prize/Pea.html"
+                });
+            });
+        
+        app.run(function($rootScope, $http){
+            $http.get("data/chem.json").then(function(rsp){
+                $rootScope.Chemis = rsp.data.Chemistry;
+            })
+            $http.get("data/phy.json").then(function(rsp){
+                $rootScope.Phys = rsp.data.Physic;
+            })
+            $http.get("data/medi.json").then(function(rsp){
+                $rootScope.Medic = rsp.data.Medicine;
+            })
+            $http.get("data/lit.json").then(function(rsp){
+                $rootScope.Liter = rsp.data.Literature;
+            })
+            $http.get("data/pea.json").then(function(rsp){
+                $rootScope.Peace = rsp.data.Peace;
+            })
+            // trang prize
+            $http.get("Prize/Data/chem.json").then(function(res){
+                $rootScope.Chem = res.data.Chemistry;
+            })
+            $http.get("Prize/Data/phy.json").then(function(res){
+                $rootScope.Phy = res.data.Physic;
+            })
+            $http.get("Prize/Data/medi.json").then(function(res){
+                $rootScope.Medi = res.data.Medicine;
+            })
+            $http.get("Prize/Data/lit.json").then(function(res){
+                $rootScope.Lit = res.data.Literature;
+            })
+            $http.get("Prize/Data/pea.json").then(function(res){
+                $rootScope.Pea = res.data.Peace;
+            })
+        })     
+
+        app.controller("prizeCtrl",function($scope){
+
+        })
+    </script>
+</body>
+</html> -->
