@@ -1,0 +1,52 @@
+{
+  "Peace": [
+    {
+      "IMG": "Eproject/peace/2021/Dmitry Andreyevich Muratov.jpg",
+      "Name": "Dmitry Andreyevich Muratov",
+      "Year": 2021,
+      "Prize": "1/2",
+      "Data": "Born: 30 November 1960, Kubyshev, USSR (now Samara, Russia)\nResidence at the time of the award: Russia",
+      "Motivation": "For their efforts to safeguard freedom of expression, which is a precondition for democracy and lasting peace"
+    },
+    {
+      "IMG": "Eproject/peace/2021/Maria Ressa.webp",
+      "Name": "Maria Ressa",
+      "Year": 2021,
+      "Prize": "1/2",
+      "Data": "Born: 2 October 1963, Manila, Philippines\nResidence at the time of the award: Philippines",
+      "Motivation": "For their efforts to safeguard freedom of expression, which is a precondition for democracy and lasting peace"
+    },
+    {
+      "IMG": "Eproject/peace/2020/World Food Programme (WFP).jpg",
+      "Name": "World Food Programme (WFP)",
+      "Year": 2020,
+      "Prize": "1/1",
+      "Data": "Founded: 1961\n",
+      "Motivation": "For its efforts to combat hunger, for its contribution to bettering conditions for peace in conflict-affected areas and for acting as a driving force in efforts to prevent the use of hunger as a weapon of war and conflict"
+    },
+    {
+      "IMG": "Eproject/peace/2019/Abiy Ahmed Ali.webp",
+      "Name": "Abiy Ahmed Ali",
+      "Year": 2019,
+      "Prize": "1/1",
+      "Data": "Born: 15 August 1976, Beshasha, Ethiopia\nRole: Prime Minister of the Federal Democratic Republic of Ethiopia",
+      "Motivation": "For his efforts to achieve peace and international cooperation, and in particular for his decisive initiative to resolve the border conflict with neighbouring Eritrea"
+    },
+    {
+      "IMG": "Eproject/peace/2018/Denis Mukwege.jpg",
+      "Name": "Denis Mukwege",
+      "Year": 2018,
+      "Prize": "1/2",
+      "Data": "Born: 1 March 1955, Bukavu, Belgian Congo (now Democratic Republic of the Congo)\n",
+      "Motivation": "For their efforts to end the use of sexual violence as a weapon of war and armed conflict"
+    },
+    {
+      "IMG": "Eproject/peace/2018/Nadia Murad Basee Taha.webp",
+      "Name": "Nadia Murad Basee Taha",
+      "Year": 2018,
+      "Prize": "1/2",
+      "Data": "Born: 30 November 1992, Kojo, Iraq\n",
+      "Motivation": "For their efforts to end the use of sexual violence as a weapon of war and armed conflict"
+    }
+  ]
+}

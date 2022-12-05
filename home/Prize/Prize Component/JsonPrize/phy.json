@@ -1,0 +1,102 @@
+{
+  "Physic": [{
+      "IMG": "Eproject/Physicsnobel/2021/Giorgio Parisi.webp",
+      "Name": "Giorgio Parisi",
+      "Year": 2021,
+      "Prize": "   ",
+      "Data": "Born: 4 August 1948, Rome, Italy\nAffiliation at the time of the award: Sapienza University of Rome, Rome, Italy",
+      "Motivation": "For the discovery of the interplay of disorder and fluctuations in physical systems from atomic to planetary scales"
+    },
+    {
+      "IMG": "Eproject/Physicsnobel/2021/Klaus Hasselmann.webp",
+      "Name": "Klaus Hasselmann",
+      "Year": 2021,
+      "Prize": "1/4",
+      "Data": "Born: 25 October 1931, Hamburg, Germany\nAffiliation at the time of the award: Max Planck Institute for Meteorology, Hamburg, Germany",
+      "Motivation": "For the physical modelling of Earth’s climate, quantifying variability and reliably predicting global warming"
+    },
+    {
+      "IMG": "Eproject/Physicsnobel/2021/Syukuro manabe.webp",
+      "Name": "Syukuro manabe",
+      "Year": 2021,
+      "Prize": "1/4",
+      "Data": "Born: 21 September 1931, Shingu, Ehime, Japan\nAffiliation at the time of the award: Princeton University, Princeton, NJ, USA",
+      "Motivation": "For the physical modelling of Earth’s climate, quantifying variability and reliably predicting global warming"
+    },
+
+    {
+      "IMG": "Eproject/Physicsnobel/2020/Andrea Ghez.webp",
+      "Name": "Andrea Ghez",
+      "Year": 2020,
+      "Prize": "1/4",
+      "Data": "Born: 16 June 1965, New York, NY, USA\nAffiliation at the time of the award: University of California, Los Angeles, CA, USA",
+      "Motivation": "For the discovery of a supermassive compact object at the centre of our galaxy"
+    },
+    {
+      "IMG": "Eproject/Physicsnobel/2020/Reinhard Genzel.webp",
+      "Name": "Reinhard Genzel",
+      "Year": 2020,
+      "Prize": "1/4",
+      "Data": "Born: 24 March 1952, Bad Homburg vor der Höhe, Germany\nAffiliation at the time of the award: Max Planck Institute for Extraterrestrial Physics, Garching, Germany, University of California, Berkeley, CA, USA",
+      "Motivation": "For the discovery of a supermassive compact object at the centre of our galaxy"
+    },
+    {
+      "IMG": "Eproject/Physicsnobel/2020/Roger Perose.webp",
+      "Name": "Roger Perose",
+      "Year": 2020,
+      "Prize": "1/2",
+      "Data": "Born: 8 August 1931, Colchester, United Kingdom\nAffiliation at the time of the award: University of Oxford, Oxford, United Kingdom",
+      "Motivation": "For the discovery that black hole formation is a robust prediction of the general theory of relativity"
+    },
+
+    {
+      "IMG": "Eproject/Physicsnobel/2019/Didier Queloz.webp",
+      "Name": "Didier Queloz",
+      "Year": 2019,
+      "Prize": "1/4",
+      "Data": "Born: 23 February 1966, Geneva, Switzerland\nAffiliation at the time of the award: University of Geneva, Geneva, Switzerland, University of Cambridge, Cambridge, United Kingdom",
+      "Motivation": "For the discovery of an exoplanet orbiting a solar-type star"
+    },
+    {
+      "IMG": "Eproject/Physicsnobel/2019/James Peebles.webp",
+      "Name": "James Peebles",
+      "Year": 2019,
+      "Prize": "1/2",
+      "Data": "Born: 25 April 1935, Winnipeg, Canada\nAffiliation at the time of the award: Princeton University, Princeton, NJ, USA",
+      "Motivation": "For theoretical discoveries in physical cosmology"
+    },
+    {
+      "IMG": "Eproject/Physicsnobel/2019/Michel Mayor.jpg",
+      "Name": "Michel Mayor",
+      "Year": 2019,
+      "Prize": "1/4",
+      "Data": "Born: 12 January 1942, Lausanne, Switzerland\nAffiliation at the time of the award: University of Geneva, Geneva, Switzerland",
+      "Motivation": "For the discovery of an exoplanet orbiting a solar-type star"
+    },
+
+    {
+      "IMG": "Eproject/Physicsnobel/2018/Arthur Ashkin.jpg",
+      "Name": "Arthur Ashkin",
+      "Year": 2018,
+      "Prize": "1/2",
+      "Data": "Born: 2 September 1922, New York, NY, USA.Born: 2 September 1922, New York, NY, USA\nAffiliation at the time of the award: Bell Laboratories, Holmdel, NJ, USA",
+      "Motivation": "For the optical tweezers and their application to biological systems"
+    },
+    {
+      "IMG": "Eproject/Physicsnobel/2018/Donna Strickland.jpg",
+      "Name": "Donna Strickland",
+      "Year": 2018,
+      "Prize": "1/4",
+      "Data": "Born: 27 May 1959, Guelph, Canada\nAffiliation at the time of the award: University of Waterloo, Waterloo, Canada",
+      "Motivation": "For their method of generating high-intensity, ultra-short optical pulses"
+    },
+    {
+      "IMG": "Eproject/Physicsnobel/2018/Gérard Mourou.jpg",
+      "Name": "Gérard Mourou",
+      "Year": 2018,
+      "Prize": "1/4",
+      "Data": "Born: 22 June 1944, Albertville, France\nAffiliation at the time of the award: École Polytechnique, Palaiseau, France, University of Michigan, Ann Arbor, MI, USA",
+      "Motivation": "For their method of generating high-intensity, ultra-short optical pulses"
+    }
+  ]
+}
